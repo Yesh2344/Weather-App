@@ -82,3 +82,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 - Thanks to OpenWeatherMap for providing the weather data API.
 - Inspiration for this project comes from the need for quick and accurate weather updates.
+
+## Contact
+
+Email:
