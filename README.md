@@ -89,4 +89,4 @@ Email:yeswanthsoma83@gmail.com
 
 ## Copyrights
 
-@YeswanthSoma
+@YeswanthSoma All Copyrights Reserved
