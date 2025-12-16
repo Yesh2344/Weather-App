@@ -19,6 +19,7 @@ def get_weather_data(city, api_key):
 def plot_weather_data(weather_data):
     timestamps = [datetime.fromtimestamp(item['dt']) for item in weather_data['list']]
     temperatures = [item['main']['temp'] for item in weather_data['list']]
+# Added comment
     
     fig, ax = plt.subplots(figsize=(8, 4))
     ax.plot(timestamps, temperatures, marker='o', label='Temperature (°C)', color='b')
