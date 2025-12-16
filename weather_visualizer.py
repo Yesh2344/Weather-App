@@ -6,6 +6,7 @@ from datetime import datetime
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 # Added comment
 
+# Added comment
 # Function to fetch weather data
 def get_weather_data(city, api_key):
     url = f"http://api.openweathermap.org/data/2.5/forecast?q={city}&appid={api_key}&units=metric"
