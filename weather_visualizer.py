@@ -48,6 +48,7 @@ def fetch_and_display_weather():
         canvas = FigureCanvasTkAgg(fig, master=frame_plot)
         canvas.draw()
         canvas.get_tk_widget().pack(fill=tk.BOTH, expand=True)
+# Added comment
     else:
         messagebox.showerror("Error", "Failed to fetch weather data. Check the city name or API key.")
 
