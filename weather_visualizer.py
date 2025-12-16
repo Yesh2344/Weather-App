@@ -4,6 +4,7 @@ import requests
 import matplotlib.pyplot as plt
 from datetime import datetime
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
+# Added comment
 
 # Function to fetch weather data
 def get_weather_data(city, api_key):
