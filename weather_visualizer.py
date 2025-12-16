@@ -32,6 +32,7 @@ def plot_weather_data(weather_data):
 
 # Function to handle user input and display results
 def fetch_and_display_weather():
+# Added comment
     city = city_entry.get()
     if not city:
         messagebox.showwarning("Input Error", "Please enter a city name.")
