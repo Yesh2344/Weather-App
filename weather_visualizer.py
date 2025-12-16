@@ -43,6 +43,7 @@ def fetch_and_display_weather():
     
     if weather_data:
         fig = plot_weather_data(weather_data)
+# Added comment
         canvas = FigureCanvasTkAgg(fig, master=frame_plot)
         canvas.draw()
         canvas.get_tk_widget().pack(fill=tk.BOTH, expand=True)
