@@ -56,6 +56,7 @@ def fetch_and_display_weather():
 root = tk.Tk()
 root.title("Weather Dashboard")
 root.geometry("800x600")
+# Added comment
 
 # Create the input frame
 frame_input = tk.Frame(root, pady=10)
