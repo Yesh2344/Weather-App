@@ -56,6 +56,7 @@ root.geometry("800x600")
 # Create the input frame
 frame_input = tk.Frame(root, pady=10)
 frame_input.pack(side=tk.TOP, fill=tk.X)
+# Added comment
 
 tk.Label(frame_input, text="Enter City Name:", font=("Arial", 12)).pack(side=tk.LEFT, padx=10)
 city_entry = tk.Entry(frame_input, width=30, font=("Arial", 12))
